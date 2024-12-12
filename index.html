@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Just enjoy</h2>
+        <nav>
+            <a href="#">About</a>
+            
+        </nav>
+    </header>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome Now relax</h1>
+        </div>
+        <div class="options">
+            <button onclick="startGame('friend')">Play with Friend</button>
+            <button onclick="startGame('bot')">Play with Bot </button>
+        </div>
+        <div class="board" id="board"></div>
+        <div class="winner" id="winner"></div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <h2>Hey 🫵</h2>
+        <p id="popup-message"> Just one one more try</p>
+        <button onclick="closePopup()">Continue</button>
+    </div>
+    <footer>
+        <p>Forget every stress, problems and just relax and enjoy here</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+     
+       
